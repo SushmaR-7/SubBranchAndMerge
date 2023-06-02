@@ -64,4 +64,39 @@ $ ^C
 
 Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
 $
+-------------------------------
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$ git add -A
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$ git commit -m"done"
+[dev1 84787be] done
+ 1 file changed, 67 insertions(+)
+ create mode 100644 branchNotes.txt.txt
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$ git push
+fatal: The current branch dev1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$ git push
+fatal: The current branch dev1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin dev1
+***copy paste this line*****************
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$
 
