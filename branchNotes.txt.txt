@@ -1,0 +1,67 @@
+Module 1:Introduction to Cloud Computing..!
+Git Connection with SSh
+//==from 1 to 4 optional==//
+1.Go to settings.
+2.Under access please select ssh and gpg.
+3.Please click on generate ssh key.
+4.Select 5th option generating new ssh key and adding it to ssh-agent.
+5.Open git bash.
+
+	$ ssh-keygen -t ed25519 -C "your_email@example.com"
+	paste about command by replacing your email.
+
+   ex:- $ ssh-keygen -t ed25519 -C "darshanaws0208@gmail.com"
+
+  please press enter till you get the key.(if u r generating key for first time please tell yes/y )
+	Open the file location mentioned where key present and open .pub file in notepad and copy the
+	key.
+
+6.Open github settings and go to ssh and gpg.select new ssh key.
+7.Give title and paste the key
+
+
+
+
+git config--global user.name="SushmaR-7"
+
+git config--global user.email="sushmaar7@gmail.com"
+
+git config--global user.name="SushmaR-7"
+
+Create branch:
+git branch branchName
+ex:git branch dev1
+
+
+
+change the branch:
+git checkout branchName
+git checkout dev1
+
+checkout:used to change the path main to dev1
+/Desktop/git hub/DemoRepo (main)
+/Desktop/git hub/DemoRepo (dev1)
+----------------------------------------------
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (main)
+$ git branch
+* main
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (main)
+$ git branch dev1
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (main)
+$ git branch
+  dev1
+* main
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (main)
+$ git checkout dev1
+Switched to branch 'dev1'
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$ ^C
+
+Admin@DESKTOP-79EULOQ MINGW64 ~/Desktop/git hub/SubBranchAndMerge (dev1)
+$
+
